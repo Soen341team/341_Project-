@@ -1,7 +1,9 @@
-📌 Overview
+📌 Overview :
+
 Docsify is a collaborative document editing platform built with Next.js, featuring real-time collaboration, user authentication, document management, and role-based permissions. The goal is to create a high-performance, scalable, and modern alternative to Google Docs while showcasing advanced development skills.
 
-🚀 Tech Stack
+🚀 Tech Stack :
+
 Frontend: Next.js, TypeScript, TailwindCSS, ShadCN
 Real-Time Collaboration: Liveblocks
 Text Editor: Lexical Editor
