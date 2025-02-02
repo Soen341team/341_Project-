@@ -1,45 +1,40 @@
-📌 Overview
-Docsify is a collaborative document editing platform built with Next.js, featuring real-time collaboration, user authentication, document management, and role-based permissions. The goal is to create a high-performance, scalable, and modern alternative to Google Docs while showcasing advanced development skills.
+ Overview:
+  Docsify – A Real-Time Collaborative Editor
+Docsify is a collaborative document editing app built with Next.js. It lets users chat in groups, send direct messages, and edit documents together in real time. The goal is to create a simple, fast, and modern alternative to Google Docs while making sure it includes all the required features.
 
-🚀 Tech Stack
+ Tech Stack:
 Frontend: Next.js, TypeScript, TailwindCSS, ShadCN
 Real-Time Collaboration: Liveblocks
 Text Editor: Lexical Editor
 Authentication: NextAuth (GitHub OAuth)
 Database: NeonDB
 Hosting & Deployment: Vercel
-🎯 Core Features (Mandatory Features Respected ✅)
-1️⃣ Text Channels for Group Communication ✅
-Users can join predefined channels (e.g., "General," "Project Help," "Social").
+ --------------------------------------------------------------------
 
-Messages are visible to all users in the channel.
-Real-time chat updates using "Liveblocks".
-UI optimized with ShadCN and TailwindCSS.
-2️⃣ Direct Messaging Between Users ✅
-Users can send private messages to each other.
-
-One-on-one conversations with real-time updates.
-Typing indicators and read receipts.
-Secure messaging with database storage.
-3️⃣ Role-Based User Permissions ✅
-Users have two roles: Admin & Member.
-
+ Core Features (All Requirements Met ✅)
+1️⃣ Group Chat (Text Channels) ✅
+Users can join different chat rooms ( "General," "Project Help," "Social").
+Messages are visible to everyone in the channel.
+Real-time chat updates with Liveblocks.
+Clean and modern UI using ShadCN and TailwindCSS.
+2️⃣ Private Messaging (DMs) ✅
+Users can send direct messages to others.
+Supports real-time updates, typing indicators, and read receipts.
+Messages are securely stored in the database.
+3️⃣ Role-Based Permissions ✅
 Admins can:
-Create/Delete channels.
-Moderate messages (delete inappropriate ones).
+✅ Create and delete channels.
+✅ Moderate (delete) messages if needed.
 Members can:
-Send and view messages but cannot manage channels.
-➕ Additional Proposed Feature: Collaborative Text Editor
-We propose adding a real-time document collaboration tool that allows multiple users to edit the same document, similar to Google Docs.
-
-Live Collaborative Editing: Users can edit documents simultaneously with real-time syncing.
-Document Management:
-Create, Delete, List, and Share documents (view/edit permissions).
-Search and sorting functionalities.
-Inline Comments & Threading: Users can add comments and reply in threads.
-Active Collaborators Display: Shows live editing presence.
-Notifications: Real-time updates when documents are shared, commented on, or edited.
-
-
-Contributors : 
+✅ Send and view messages, but cannot manage channels.
+➕ Extra Feature: Live Document Editing (Like Google Docs)
+Since this project is about collaboration, we are also adding a real-time text editor where multiple users can edit the same document at the same time.
+ --------------------------------------------------------------------
+Live Editing: Multiple users can edit documents together.
+Document Management: Users can create, delete, list, and share documents.
+Search & Sorting: Find documents easily.
+Inline Comments: Users can leave comments and reply in threads.
+Active Collaborators: Show who's currently editing.
+Notifications: Alerts for new comments, edits, or shared docs.
+👥 Contributors:
 Yahya Mounadi (40234117)
