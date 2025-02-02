@@ -1,8 +1,7 @@
- Overview:
-  Docsify – A Real-Time Collaborative Editor
-Docsify is a collaborative document editing app built with Next.js. It lets users chat in groups, send direct messages, and edit documents together in real time. The goal is to create a simple, fast, and modern alternative to Google Docs while making sure it includes all the required features.
-
- Tech Stack:
+📌 Overview
+Docsify is a collaborative document editing platform built with Next.js, featuring real-time collaboration, user authentication, document management, and role-based permissions. The goal is to create a high-performance, scalable, and modern alternative to Google Docs while showcasing advanced development skills.
+ --------------------------------------------------------------------
+🚀 Tech Stack
 Frontend: Next.js, TypeScript, TailwindCSS, ShadCN
 Real-Time Collaboration: Liveblocks
 Text Editor: Lexical Editor
@@ -10,7 +9,6 @@ Authentication: NextAuth (GitHub OAuth)
 Database: NeonDB
 Hosting & Deployment: Vercel
  --------------------------------------------------------------------
-
  Core Features (All Requirements Met ✅)
 1️⃣ Group Chat (Text Channels) ✅
 Users can join different chat rooms ( "General," "Project Help," "Social").
